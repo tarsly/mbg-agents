@@ -1,5 +1,6 @@
 {
   "name": "start-here",
+  "displayName": "Start Here",
   "version": "1.0.0",
   "description": "The starting point for every MBG client. Three guided skills that help you get clear on where you're headed, map your business for AI automation, and design your AI agent team. Run them in order for the best experience — or jump to what you need, when you need it.",
   "author": {
