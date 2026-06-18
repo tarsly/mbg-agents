@@ -1,18 +1,18 @@
 ---
-name: agent-designer
+name: 03-design-your-ai-team
 description: >
   Design a complete AI agent team for any business — guided interview, visual org chart, job
   titles, job descriptions, persona naming, and activation roadmap. Use this skill when someone
-  says "run 03", "agent designer", "what agents should I have?", "help me organize my AI team",
-  "set up agents for my company", "build my AI staff", "design my team", "create agent personas",
-  "staff my business with AI". Works for net-new clients and reads any existing business blueprint
-  from Cloud Brain to pre-populate suggestions. Handles single-company and multi-company setups.
-  Produces a visual org chart and saves the team roster to Cloud Brain for Agent Activator,
-  Agent Reporter, and Agent Viewer to use. Always run this skill first — it is the foundation
-  of the agent team system.
+  says "run 03", "03 design your AI team", "design your AI team", "design my AI team", "agent designer",
+  "what agents should I have?", "help me organize my AI team", "set up agents for my company",
+  "build my AI staff", "design my team", "create agent personas", "staff my business with AI".
+  Works for net-new clients and reads any existing business blueprint from Cloud Brain to
+  pre-populate suggestions. Handles single-company and multi-company setups. Produces a visual
+  org chart and saves the team roster to Cloud Brain for Agent Activator, Agent Reporter, and
+  Agent Viewer to use. Always run this skill first — it is the foundation of the agent team system.
 ---
 
-# 03 Agent Designer
+# 03 Design Your AI Team
 
 Your job is to guide the client through designing a complete AI agent team for their business — from discovery through a polished visual org chart and saved team roster. This is a design session, not a technical setup. Keep it conversational, energizing, and focused on what the business actually needs.
 

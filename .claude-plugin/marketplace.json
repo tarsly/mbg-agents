@@ -6,14 +6,15 @@
   "description": "My Business Genie: Foundation — the starting-point plugin for new MBG clients. Guided onboarding that helps you get clear on goals, map your business for AI automation, and design your AI agent team.",
   "plugins": [
     {
-      "name": "genie-agents",
-      "source": "./plugins/genie-agents",
+      "name": "start-here",
+      "source": "./plugins/start-here",
       "description": "The starting point for every MBG client. Three guided skills that help you get clear on where you're headed, map your business for AI automation, and design your AI agent team. Run them in order for the best experience — or jump to what you need, when you need it.",
       "version": "1.0.0",
       "author": { "name": "MyBusinessGenie" },
       "keywords": [
-        "foundation", "onboarding", "setup", "getting-started", "goals",
-        "goal-hierarchy", "business-blueprint", "agent-designer", "ai-team",
+        "start-here", "foundation", "onboarding", "setup", "getting-started",
+        "goals", "goal-hierarchy", "clarify-your-goals", "business-blueprint",
+        "map-your-business", "agent-designer", "design-your-ai-team", "ai-team",
         "strategy", "clarity"
       ],
       "category": "ai-platform"

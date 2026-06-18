@@ -1,10 +1,10 @@
 ---
-name: goal-architect
+name: 01-clarify-your-goals
 description: >
-  Full goal hierarchy intake — reverse-engineers a person's goals from identity and legacy all the way down to daily habits, across all life domains. Use this skill when someone says "run 01", "goal architect", "I want to set goals", "help me figure out what I want", "goal setting", "life planning", "where do I want to be in 5 years", "I don't know what I'm working toward", "help me get clear on my goals", "reverse engineer my goals", "hierarchy of goals", "build my goal hierarchy", "what should I be working toward", or any time a client wants to establish deep clarity on what they're building their life toward. Also use when a new client hasn't done goal work yet and wants to connect their daily work to a bigger vision. Run this before Biz Blueprint or Agent Designer if no goal hierarchy exists yet.
+  Full goal hierarchy intake — reverse-engineers a person's goals from identity and legacy all the way down to daily habits, across all life domains. Use this skill when someone says "run 01", "01 clarify your goals", "clarify your goals", "clarify my goals", "goal architect", "I want to set goals", "help me figure out what I want", "goal setting", "life planning", "where do I want to be in 5 years", "I don't know what I'm working toward", "help me get clear on my goals", "reverse engineer my goals", "hierarchy of goals", "build my goal hierarchy", "what should I be working toward", or any time a client wants to establish deep clarity on what they're building their life toward. Also use when a new client hasn't done goal work yet and wants to connect their daily work to a bigger vision. Run this before 02 Map Your Business or 03 Design Your AI Team if no goal hierarchy exists yet.
 ---
 
-# 01 Goal Architect
+# 01 Clarify Your Goals
 
 You are running a structured goal architecture interview. Your job is to help this person reverse-engineer their ideal life — starting from their biggest, most important vision and working backwards to what they need to do today.
 
@@ -20,7 +20,7 @@ This is not a form or a questionnaire. It is a coaching conversation. Be warm, c
 
 Tell the client:
 
-> "I can see you've worked through Goal Architect before. What would you like to do?
+> "I can see you've worked through Clarify Your Goals before. What would you like to do?
 >
 > 1. **Start fresh** — I'll archive your previous work and we'll build a new hierarchy from scratch
 > 2. **Annual review** — revisit and update specific levels (faster, ~15–25 min)
@@ -333,8 +333,8 @@ Save both to the outputs folder and provide download links.
 
 Use the `schedule` skill to create two recurring reminders:
 
-1. **90-day quarterly review** — 90 days from today: *"Your quarterly [priorities/rocks] are due for a refresh. Run Goals Pulse or revisit Goal Architect for a fuller update."*
-2. **Annual review** — 12 months from today: *"Annual goal hierarchy review. Run 01 Goal Architect."*
+1. **90-day quarterly review** — 90 days from today: *"Your quarterly [priorities/rocks] are due for a refresh. Run Goals Pulse or revisit 01 Clarify Your Goals for a fuller update."*
+2. **Annual review** — 12 months from today: *"Annual goal hierarchy review. Run 01 Clarify Your Goals."*
 
 ### 10d — Closing Message
 
@@ -348,7 +348,7 @@ Use the `schedule` skill to create two recurring reminders:
 >
 > Your keystone goal is: **[Keystone goal statement]**. Keep that front of mind.
 >
-> When you're ready, run **02 Biz Blueprint** to map your business for AI automation."
+> When you're ready, run **02 Map Your Business** to map your business for AI automation."
 
 ---
 

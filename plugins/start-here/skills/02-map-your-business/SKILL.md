@@ -1,10 +1,10 @@
 ---
-name: biz-blueprint
+name: 02-map-your-business
 description: >
-  Business automation discovery interview — identifies areas where Claude, Claude Code, Claude Cowork, and MCP integrations can automate a business in an agentic way. Use when someone says "run 02", "biz blueprint", "map my business", "automate my business", "how can AI help my business", "business automation plan", "what should I automate first", "find my automation opportunities", "where can I use AI agents", or wants to explore how to use AI agents to automate their workflows, operations, or daily tasks.
+  Business automation discovery interview — identifies areas where Claude, Claude Code, Claude Cowork, and MCP integrations can automate a business in an agentic way. Use when someone says "run 02", "02 map your business", "map your business", "map my business", "biz blueprint", "automate my business", "how can AI help my business", "business automation plan", "what should I automate first", "find my automation opportunities", "where can I use AI agents", or wants to explore how to use AI agents to automate their workflows, operations, or daily tasks.
 ---
 
-# 02 Biz Blueprint
+# 02 Map Your Business
 
 This skill guides you through a comprehensive, multi-level interview to identify specific, actionable ways a client can automate their business using the Claude ecosystem (Claude Code, Claude Cowork, Claude Scheduled Tasks, and MCP integrations). The output is a concrete **Business Automation Blueprint** — a tailored, step-by-step agentic automation plan.
 
@@ -123,7 +123,7 @@ Save the blueprint to Cloud Brain using `mcp__cloud-brain__write_note` at path `
 
 Immediately after delivering the blueprint, offer next steps:
 
-> "Your Business Automation Blueprint is ready. Would you like me to help you start implementing it? I can walk you through each workflow one at a time — starting with the highest-impact item. Or, if you're ready, run **03 Agent Designer** to design your AI team based on this blueprint."
+> "Your Business Automation Blueprint is ready. Would you like me to help you start implementing it? I can walk you through each workflow one at a time — starting with the highest-impact item. Or, if you're ready, run **03 Design Your AI Team** to design your AI team based on this blueprint."
 
 If the client wants to implement now:
 
