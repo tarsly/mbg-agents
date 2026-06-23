@@ -187,7 +187,36 @@ Priority order (highest impact first):
 3. {Job Title} — {one-line reason}
 ```
 
-Confirm to the client once saved: *"Your team is saved. You can view your org chart anytime with Agent Viewer."*
+Then **also write the structured JSON** that the web org-chart renderer reads. This is a second note in the same folder:
+
+**Note path:** `agent-teams/{company-slug}-structure`
+**Note title:** `Agent Team Structure: {Company Name}`
+
+The body is a single fenced JSON block (`json` fence) so downstream readers can extract it deterministically. Schema:
+
+```json
+{
+  "company_name": "{Company Name}",
+  "company_slug": "{slug}",
+  "last_updated": "{YYYY-MM-DD}",
+  "owner": { "id": "owner", "name": "{Owner Name or 'Owner'}", "icon": "👤" },
+  "agents": [
+    {
+      "id": "{kebab-case-slug-of-job-title}",
+      "title": "{Job Title}",
+      "name": "{Persona Name or null}",
+      "icon": "{emoji}",
+      "reports_to": "owner | {parent agent id}",
+      "status": "proposed | active",
+      "weekly_time_saved_hours": {number}
+    }
+  ]
+}
+```
+
+`reports_to: "owner"` indicates a direct report to the human owner; any other value references another `agents[].id`. Keep `id` slugs stable across iterations so consumers can diff.
+
+Confirm to the client once both notes are saved: *"Your team is saved. You can view your org chart anytime with Agent Viewer or right inside the My Business Genie portal."*
 
 ---
 
