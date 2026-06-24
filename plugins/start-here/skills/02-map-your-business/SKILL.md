@@ -115,7 +115,14 @@ After completing the interview and mapping the tasks, generate a comprehensive *
    - The **Expected ROI** (Time saved, errors reduced)
 3. **Implementation Roadmap:** Step-by-step guide on how to set up the recommended tools.
 
-Save the blueprint to Cloud Brain using `mcp__cloud-brain__write_note` at path `brain/projects/biz-blueprint-[YYYY-MM-DD].md`.
+Save the blueprint to Cloud Brain via `mcp__cloud-brain__write_note` with:
+
+- **folder:** `business`
+- **title:** `business blueprint`
+
+This is the canonical location downstream skills look for (Skill 03's Phase 0 search reads `business/business blueprint` to pre-populate the agent designer). The folder MUST NOT include a `brain/` prefix — cloud-brain creates `{folder}/{title}.md` directly; a `brain/` prefix would either nest the note one level deeper or split it across two layouts.
+
+If a prior blueprint exists, the same path overwrites it — that's intentional; one canonical "current" blueprint per workspace. Users who want a historical snapshot can archive the prior version manually before re-running.
 
 ---
 
